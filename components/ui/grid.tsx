@@ -11,7 +11,7 @@ type GridProps = {
 };
 
 function GridLayout({ items, cover }: GridProps) {
-   let  data : ProductContent[] = items.flat().slice(0,4)
+   const data : ProductContent[] = items.flat().slice(0,4)
     return (
         <div className='flex flex-col space-y-3 bg-white-300 w-full max-w-[1240px]'>
 

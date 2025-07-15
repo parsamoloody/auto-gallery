@@ -14,7 +14,7 @@ const Grid = () => {
 
     const handleDataFetching = useCallback(async (code: number) => {
         try {
-            let brandData = await db.brands.findById(String(code))
+            const brandData = await db.brands.findById(String(code))
             switch (code) {
                 case 0:
                     setProductData(await filter.product.byStock(true))
@@ -43,7 +43,7 @@ const Grid = () => {
 
     useEffect(() => {
         handleDataFetching(0)
-    }, [])
+    })
 
     useEffect(() => {
         if (productData.length) {

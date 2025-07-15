@@ -32,7 +32,7 @@ const Hero = () => {
                             Dream Car
                         </h1>
                         <p className="text-2xl mb-8 opacity-90  text-[#CACACA] duration-200 ease-in-out">
-                            Lorem Ipsum has been the industry's standard dummy text ever since
+                            Lorem Ipsum has been the industry,s standard dummy text ever since
                         </p>
                         <div className="mx-auto sm:mx-0 w-40 md:w-42 h-14 md:h-16">
                             <Button className='border-3 sm:text-[20px] w-full h-full text-center duration-200 ease-in-out hover:bg-neutral-900'>

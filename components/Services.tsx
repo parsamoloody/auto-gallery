@@ -15,8 +15,8 @@ const Services = () => {
                         <div className="space-y-2 lg:space-y-5 xl:space-y-6">
                             <h3 className='text-[1.9rem] seris-font font-extrabold lg:text-4xl xl:text-5xl'>All Brands</h3>
                             <div className='text-lg lg:text-[1.25rem] space-y-3 text-gray-300'>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                <p>Lorem Ipsum has been the industrys standard dummy text ever since.</p>
+                                <p>Lorem Ipsum has been the industrys standard dummy text ever since.</p>
                             </div>
                             <div className="flex items-center">
 
@@ -40,8 +40,8 @@ const Services = () => {
                         <div className="space-y-2 lg:space-y-5 xl:space-y-6">
                             <h3 className='text-[1.9rem] seris-font font-extrabold lg:text-4xl xl:text-5xl'>All Brands</h3>
                             <div className='text-lg lg:text-[1.25rem] space-y-3 text-gray-300'>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                <p>Lorem Ipsum has been the industrys standard dummy text ever since.</p>
+                                <p>Lorem Ipsum has been the industrys standard dummy text ever since.</p>
                             </div>
                             <div className="flex items-center">
 
