@@ -80,7 +80,18 @@ const Hero = (): JSX.Element => {
                     {/* 1 */}
                     <div className="flex flex-col lg:flex-row gap-8 items-center">
 
-                        <div className="flex-1 space-y-6 text-lg text-gray-300">
+                        <div className="w-full lg:w-1/2 md:order-1">
+                            <Image
+                                src={p2}
+                                alt="About our shop"
+                                width={600}
+                                height={400}
+                                className="w-full h-auto object-cover"
+                                priority
+                                placeholder='blur'
+                            />
+                        </div>
+                        <div className="flex-1 space-y-6 text-lg text-gray-300 md:order-0">
                             <p className='text-lg text-gray-600 dark:text-gray-300 border-b border-red-700 p-1 inline'>
                                 Chairman of the board
                             </p>
@@ -103,18 +114,6 @@ const Hero = (): JSX.Element => {
                                 Vehicle (TEV) Group.
                             </p>
 
-                        </div>
-
-                        <div className="w-full lg:w-1/2">
-                            <Image
-                                src={p2}
-                                alt="About our shop"
-                                width={600}
-                                height={400}
-                                className="w-full h-auto object-cover"
-                                priority
-                                placeholder='blur'
-                            />
                         </div>
                     </div>
                     {/* 2 */}
@@ -154,7 +153,18 @@ const Hero = (): JSX.Element => {
                     {/* 3 */}
                     <div className="flex flex-col lg:flex-row gap-8 items-center">
 
-                        <div className="flex-1 space-y-6 text-lg text-gray-300">
+                        <div className="w-full lg:w-1/2 md:order-1">
+                            <Image
+                                src={p1}
+                                alt="About our shop"
+                                width={600}
+                                height={400}
+                                className="w-full h-auto object-cover"
+                                priority
+                                placeholder='blur'
+                            />
+                        </div>
+                        <div className="flex-1 space-y-6 text-lg md:order-0 text-gray-300">
                             <p className='text-lg text-gray-600 dark:text-gray-300 border-b border-red-700 p-1 inline'>
                                 Labour Director / Managing Director
                             </p>
@@ -169,17 +179,6 @@ const Hero = (): JSX.Element => {
 
                         </div>
 
-                        <div className="w-full lg:w-1/2">
-                            <Image
-                                src={p1}
-                                alt="About our shop"
-                                width={600}
-                                height={400}
-                                className="w-full h-auto object-cover"
-                                priority
-                                placeholder='blur'
-                            />
-                        </div>
                     </div>
                 </div>
             </div>
