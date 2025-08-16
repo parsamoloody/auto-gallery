@@ -5,7 +5,7 @@ import { FaRegHeart } from "react-icons/fa"
 import { MdNewReleases } from "react-icons/md"
 import { IoMdCheckmark, IoMdClose } from "react-icons/io"
 import { MdLocalOffer } from "react-icons/md"
-import { Product, ProductContent } from '@/types/type'
+import { ProductContent } from '@/types/type'
 
 export const metadata: Metadata = {
   title: 'Our Vehicles | Auto Gallery',
