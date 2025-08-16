@@ -12,6 +12,11 @@ const Grid = () => {
     const [topBrand, SetTopBrand] = useState<Brands>()
     const [isActive, setIsActive] = useState(0)
 
+    useEffect(() => {
+        handleDataFetching(0)
+        console.log('Fetching initial data...')
+    }, [])
+
     const handleDataFetching = useCallback(async (code: number) => {
         try {
             const brandData = await db.brands.findById(String(code))
@@ -41,9 +46,6 @@ const Grid = () => {
         }
     }, [])
 
-    useEffect(() => {
-        handleDataFetching(0)
-    })
 
     useEffect(() => {
         if (productData.length) {

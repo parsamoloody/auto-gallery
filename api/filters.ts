@@ -1,6 +1,5 @@
 import { Delivery, Product } from "@/types/type";
 import { products } from "./database";
-// { content: { inStock: boolean, price: { rent: number, discount: number } }[], }
 function createDelivery<T extends Product>(d: T[]): Delivery<T> {
     return {
         async byStock(isStock: boolean): Promise<T[]> {
