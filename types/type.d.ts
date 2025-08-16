@@ -9,6 +9,17 @@ type Product = {
     category: string,
     content: ProductContent[]
 }
+interface ProductContent {
+    name: string
+    description: string
+    price: {
+        rent: number
+        discount: number
+    }
+    isNew: boolean
+    images: any
+    inStock: boolean
+}
 type StaticImage = {
     src: string;
     height: number;
@@ -24,17 +35,7 @@ type Brands = {
         alt?: string
     }
 }
-interface ProductContent {
-    name: string
-    description: string
-    price: {
-        rent: number
-        discount: number
-    }
-    isNew: boolean
-    images: any
-    inStock: boolean
-}
+
 interface Entity {
     id: string;
 }

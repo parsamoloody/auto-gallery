@@ -5,6 +5,7 @@ import { FaRegHeart } from "react-icons/fa"
 import { MdNewReleases } from "react-icons/md"
 import { IoMdCheckmark, IoMdClose } from "react-icons/io"
 import { MdLocalOffer } from "react-icons/md"
+import { Product, ProductContent } from '@/types/type'
 
 export const metadata: Metadata = {
   title: 'Our Vehicles | Auto Gallery',
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   keywords: ['cars', 'luxury vehicles', 'auto sales', 'premium cars'],
 }
 
-const ProductCard = ({ product }: { product: any }) => (
+const ProductCard = ({ product }: { product: ProductContent }) => (
   <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
     <div className="relative">
       <div className="aspect-[16/9] relative overflow-hidden">
@@ -78,7 +79,7 @@ export default async function ProductsPage() {
             Discover our exclusive collection of premium vehicles. Each car has been carefully 
             selected to provide you with the ultimate driving experience.
           </p>
-        </div>
+        </div>  
 
         <div className="mb-8 p-4 ">
           <div className="flex flex-wrap gap-4">
