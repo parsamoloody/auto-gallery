@@ -74,7 +74,6 @@ export default function ContactPage() {
             </form>
           </div>
           
-          {/* Contact Information */}
           <div className="space-y-8">
             <div className="bg-gray-900 p-8 rounded-lg">
               <h2 className="text-2xl font-semibold mb-6">Business Hours</h2>

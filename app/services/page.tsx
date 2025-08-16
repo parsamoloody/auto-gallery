@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -67,9 +68,9 @@ export default async function ServicesPage() {
           <p className="text-gray-300 mb-6">
             Contact our team to learn more about our services or schedule an appointment.
           </p>
-          <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg transition-colors duration-300">
+          <Link href="/contact" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg transition-colors duration-300">
             Contact Us
-          </button>
+          </Link>
         </div>
       </div>
     </main>

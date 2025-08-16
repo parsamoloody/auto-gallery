@@ -4,6 +4,7 @@ import { Button } from './ui/button'
 import Image from 'next/image'
 import frImage from '../public/assets/images/Rectangle 148.png'
 import secImage from '../public/assets/images/Rectangle 150.png'
+import Link from 'next/link'
 
 const Services = () => {
     return (
@@ -19,11 +20,12 @@ const Services = () => {
                                 <p>Lorem Ipsum has been the industrys standard dummy text ever since.</p>
                             </div>
                             <div className="flex items-center">
-
-                                <Button className='text-lg group/hov border-b-2 mt-4 p-0 rounded-none text-gray-300 cursor-pointer'>
-                                    <span>Learn More</span>
-                                    <IoArrowBackSharp className='-rotate-90 md:rotate-180 group-hover/hov:text-sky-400 duration-200' />
-                                </Button>
+                                <Link href="/products">
+                                    <Button className='text-lg group/hov border-b-2 mt-4 p-0 rounded-none text-gray-300 cursor-pointer'>
+                                        <span>Learn More</span>
+                                        <IoArrowBackSharp className='-rotate-90 md:rotate-180 group-hover/hov:text-sky-400 duration-200' />
+                                    </Button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -44,11 +46,12 @@ const Services = () => {
                                 <p>Lorem Ipsum has been the industrys standard dummy text ever since.</p>
                             </div>
                             <div className="flex items-center">
-
-                                <Button className='text-lg group/hov border-b-2 mt-4 p-0 rounded-none text-gray-300 cursor-pointer'>
-                                    <span className='md:order-2'>Learn More</span>
-                                    <IoArrowBackSharp className='-rotate-90 md:rotate-none group-hover/hov:text-sky-400 duration-200' />
-                                </Button>
+                                <Link href="/products">
+                                    <Button className='text-lg group/hov border-b-2 mt-4 p-0 rounded-none text-gray-300 cursor-pointer'>
+                                        <span className='md:order-2'>Learn More</span>
+                                        <IoArrowBackSharp className='-rotate-90 md:rotate-none group-hover/hov:text-sky-400 duration-200' />
+                                    </Button>
+                                </Link>
                             </div>
                         </div>
                     </div>

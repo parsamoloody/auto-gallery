@@ -36,7 +36,7 @@ const Hero = () => {
                         </p>
                         <div className="mx-auto sm:mx-0 w-40 md:w-42 h-14 md:h-16">
                             <Button className='border-3 sm:text-[20px] w-full h-full text-center duration-200 ease-in-out hover:bg-neutral-900'>
-                                <Link className='h-full w-full flex justify-center items-centr leading-10' href={'/'}>Read More</Link>
+                                <Link className='h-full w-full flex justify-center items-centr leading-10' href="products">Read More</Link>
                             </Button>
                         </div>
                     </div>
