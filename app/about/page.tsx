@@ -44,12 +44,12 @@ const Hero = (): JSX.Element => {
                             its position as a highly successful sports car and high-performance brand
                             – and today this is truer than ever.
                         </p>
-                        <p>
-                            Affalterbach is home to AMG’s management, administration, sales, development
+                        <p className="">
+                            Affalterbach is home to AMG&apos;s management, administration, sales, development
                             and design teams as well as AMG hand-crafted engine building. This is where
                             AMG V8 engines and AMG 4-cylinder/in-line engines are produced. Each engine
-                            is hand-assembled by a single engine builder in accordance with the "one man,
-                            one engine" philosophy and bears a hand-signed plaque from him
+                            is hand-assembled by a single engine builder in accordance with the &quot;one man,
+                            one engine&quot; philosophy and bears a hand-signed plaque from him
                         </p>
 
                     </div>
